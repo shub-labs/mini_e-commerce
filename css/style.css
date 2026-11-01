@@ -1,0 +1,27 @@
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* .loader{
+  align-self: center;
+  justify-self: center;
+} */
+
+.cat-btn {
+  background-color: #fff;
+  color: oklch(0.511 0.096 186.391);
+}
+.cat-btn:hover{
+  background-color: oklch(.968 .007 247.896);
+} 
+.active{
+  background-color: oklch(0.511 0.096 186.391);
+  color: #fff;
+}
+.active:hover{
+  background-color: oklch(0.511 0.096 186.391);
+}
+
